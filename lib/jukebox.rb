@@ -48,5 +48,8 @@ def run
   command = gets.strip
   if command == "help"
     help
+  elsif command == "list"
+    list
+    elsif command == "play"
 end
 
