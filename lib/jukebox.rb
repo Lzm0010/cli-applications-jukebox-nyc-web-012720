@@ -45,16 +45,17 @@ end
 
 def run
   while true
-  puts "Please enter a command:"
-  command = gets.strip
-  if command == "help"
-    help
-  elsif command == "list"
-    list
-  elsif command == "play"
-    play
-  elsif command == "exit"
-    exit_jukebox
+    puts "Please enter a command:"
+    command = gets.strip
+    if command == "help"
+      help
+    elsif command == "list"
+      list
+    elsif command == "play"
+      play
+    elsif command == "exit"
+      exit_jukebox
+    end
   end
 end
 
