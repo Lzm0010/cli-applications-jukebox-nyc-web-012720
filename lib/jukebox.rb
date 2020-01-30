@@ -50,6 +50,8 @@ def run
     help
   elsif command == "list"
     list
-    elsif command == "play"
+  elsif command == "play"
+    play
+  elsif command == "exit"
 end
 
