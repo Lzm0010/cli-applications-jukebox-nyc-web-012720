@@ -54,5 +54,6 @@ def run
     play
   elsif command == "exit"
     exit_jukebox
+  end
 end
 
